@@ -6,14 +6,14 @@
 //
 
 import UIKit
+import modular1
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print(TestModular1.callModular())
     }
-
-
 }
 
